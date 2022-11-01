@@ -1,0 +1,39 @@
+.articlesMore {
+  &__block {
+    border-bottom: 1px solid #000;
+
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+
+    &::before {
+      position: absolute;
+      right: -10px;
+      transform: translateX(100%);
+      top: 0;
+      content: '';
+      background-image: url(../../images/starImg.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 48px;
+      height: 48px;
+    }
+  }
+
+  &__items {
+    border-top: 1px solid black;
+    padding-top: 60px;
+  }
+
+  &__articleTabs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

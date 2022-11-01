@@ -1,0 +1,55 @@
+.title {
+  font-family: 'Ante Cf';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 97px;
+  text-transform: capitalize;
+  color: #000000;
+  position: relative;
+  z-index: 1;
+
+  @include onSmartphone {
+    font-size: 69px;
+    line-height: 92px;
+  }
+
+  &:after {
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #000;
+    transform: translateY(100%);
+    content: '\2193';
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+[data-img="forNews"] {
+  &::before {
+    background-image: url(../../images/titleImg.png);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-65%);
+    content: '';
+    width: 316px;
+    height: 93px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+
+    @include onSmartphone {
+      width: 211px;
+      height: 62px;
+    }
+  }
+}

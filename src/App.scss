@@ -1,0 +1,20 @@
+@import './mixins/mixins.scss';
+@import './Components/News/News.scss';
+@import './Components/UI/Title.scss';
+@import './Components/ArticleSelected/ArticleSelected.scss';
+@import './Components/ArticleTabs/ArticleTabs.scss';
+@import './Components/ArticlesMore/ArticlesMore.scss';
+@import './Components/Article/Article.scss';
+@import './Components/UI/link.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
