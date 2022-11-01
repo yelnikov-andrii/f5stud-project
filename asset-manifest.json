@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/f5stud-project/static/css/main.effe1dde.css",
+    "main.js": "/f5stud-project/static/js/main.637b8535.js",
+    "static/media/articleImg1.png": "/f5stud-project/static/media/articleImg1.9aeedb68e720b8f8c24c.png",
+    "static/media/articleImg11.png": "/f5stud-project/static/media/articleImg11.eb244533288f1a1315c0.png",
+    "static/media/articleImg8.png": "/f5stud-project/static/media/articleImg8.eb244533288f1a1315c0.png",
+    "static/media/articleImg6.png": "/f5stud-project/static/media/articleImg6.27b80808f5f82ab5b2f6.png",
+    "static/media/articleImg9.png": "/f5stud-project/static/media/articleImg9.27b80808f5f82ab5b2f6.png",
+    "static/media/articleImg2.png": "/f5stud-project/static/media/articleImg2.664786933231fec281db.png",
+    "static/media/articleImg10.png": "/f5stud-project/static/media/articleImg10.b5bd98e76152a3abf066.png",
+    "static/media/articleImg7.png": "/f5stud-project/static/media/articleImg7.b5bd98e76152a3abf066.png",
+    "static/media/articleImg4.png": "/f5stud-project/static/media/articleImg4.f0203d4b4a50b8aaa061.png",
+    "static/media/articleImg5.png": "/f5stud-project/static/media/articleImg5.89af7c7029fcbcd12215.png",
+    "static/media/articleImg3.png": "/f5stud-project/static/media/articleImg3.d47c6554c55cc965a9be.png",
+    "index.html": "/f5stud-project/index.html",
+    "main.effe1dde.css.map": "/f5stud-project/static/css/main.effe1dde.css.map",
+    "main.637b8535.js.map": "/f5stud-project/static/js/main.637b8535.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.effe1dde.css",
+    "static/js/main.637b8535.js"
+  ]
+}
